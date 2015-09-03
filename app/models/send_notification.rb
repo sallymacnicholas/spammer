@@ -8,8 +8,7 @@ class SendNotification
   end
 
   def message
-    lots_of_messages[rand(0..(lots_of_messages.length))]
-    # "This is the last one for the day. Cheerio!!"
+    lots_of_messages.sample
   end
 
   def lots_of_messages
