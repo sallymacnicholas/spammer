@@ -1,4 +1,3 @@
-require 'pry'
 class SendNotification
   def initialize
     @client = Twilio::REST::Client.new(ENV["twilio_sid"], ENV["twilio_token"])
@@ -10,7 +9,7 @@ class SendNotification
 
   def message
     # lots_of_messages[rand(0..(lots_of_messages.length))]
-    "1507 i mean"
+    "Heyyyyyyyyyyyyy look I sent you a text message!"
   end
 
   def lots_of_messages
