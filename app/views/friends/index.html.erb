@@ -1,0 +1,7 @@
+<h1>your own personal spammer</h1>
+
+<%= form_for @friend do |f| %>
+  <%= f.label :number, "Victim's number" %>
+  <%= f.text_field :number %>
+  <%= f.submit %>
+<% end %>
