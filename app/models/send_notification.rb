@@ -8,8 +8,8 @@ class SendNotification
   end
 
   def message
-    # lots_of_messages[rand(0..(lots_of_messages.length))]
-    "Heyyyyyyyyyyyyy look I sent you a text message!"
+    lots_of_messages[rand(0..(lots_of_messages.length))]
+    # "This is the last one for the day. Cheerio!!"
   end
 
   def lots_of_messages
@@ -27,7 +27,6 @@ class SendNotification
       "wanna do some pushups during next pomo?",
       "please buy me some coffee",
       "please make more coffee",
-      "be nice to everyone. kharma's a bitch"
     ]
   end
 
