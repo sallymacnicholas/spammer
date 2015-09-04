@@ -1,7 +1,10 @@
 <h1>YOUR OWN PERSONAL SPAMMER!</h1>
-
+<div class="row">
+<div class="col s8 offset-s2">
 <%= form_for @friend do |f| %>
   <%= f.label :number, "Victim's number" %>
   <%= f.text_field :number %>
-  <%= f.submit %>
+  <%= f.submit 'Begin Spamming'%>
 <% end %>
+</div>
+</div>
